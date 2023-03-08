@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CRUD-SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/CRUD-SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/demo.iml" filepath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/demo.iml" />
     </modules>
   </component>
 </project>
