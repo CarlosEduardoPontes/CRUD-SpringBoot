@@ -55,5 +55,10 @@ public class CourseService {
                 })
                 .orElse(false);
 
+
+    public CourseService(CourseService courseService) {
+
+        this.courseService = courseService;
+
     }
 }
