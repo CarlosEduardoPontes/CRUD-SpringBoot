@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c8bedba-d37e-4de5-978f-9fdcfdf72741" name="Changes" comment="" />
+    <list default="true" id="6c8bedba-d37e-4de5-978f-9fdcfdf72741" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/service/CourseService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +18,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Service" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,11 +26,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -45,13 +54,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/csilva17/OneDrive - Capgemini/Desktop/CRUD-SpringBoot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/csilva17/OneDrive - Capgemini/Desktop/CRUD-SpringBoot&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CrudSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cadu.CrudSpringApplication" />
@@ -76,7 +85,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e655077c-7296-402c-a6bb-8cbe6c156325" name="Changes" comment="" />
+      <changelist id="6c8bedba-d37e-4de5-978f-9fdcfdf72741" name="Changes" comment="" />
       <created>1678306795054</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

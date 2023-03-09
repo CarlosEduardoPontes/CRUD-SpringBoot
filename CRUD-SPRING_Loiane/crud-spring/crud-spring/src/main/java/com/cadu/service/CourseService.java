@@ -42,7 +42,7 @@ public class CourseService {
                 });
     }
 
-    public boolean delete(@PathVariable @NotNull @Positive Long id) {
+    public boolean delete(@PathVariable @NotNull @Positive Long id){
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     courseRepository.deleteById(id);
