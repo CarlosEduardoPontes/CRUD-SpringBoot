@@ -66,14 +66,4 @@ public class CourseController {
             return ResponseEntity.noContent().<Void>build();
         return ResponseEntity.notFound().build();
     }
-//    @GetMapping("/api/cursos")
-//    public ResponseEntity find( Course filtro){
-//        ExampleMatcher matcher = ExampleMatcher
-//                .matching()
-//                .withIgnoreCase()
-//                .withStringMatcher(ExampleMatcher.StringMatcher.CONTAINING);
-//        Example example = Example.of(filtro, matcher);
-//        List<Course> lista = courseRepository.findAll(example);
-//        return ResponseEntity.ok(lista);
-//    }
 }
