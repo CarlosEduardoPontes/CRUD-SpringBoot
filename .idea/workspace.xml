@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c8bedba-d37e-4de5-978f-9fdcfdf72741" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/controller/ApplicationControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/exception/RecordNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/model/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CRUD-SPRING_Loiane/crud-spring/crud-spring/src/main/java/com/cadu/service/CourseService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -50,6 +58,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2MkLmY3Hd9ttOOPWJxJT9lzP19n" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
