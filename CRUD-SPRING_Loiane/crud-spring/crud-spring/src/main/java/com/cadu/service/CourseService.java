@@ -1,5 +1,6 @@
 package com.cadu.service;
 
+import com.cadu.exception.RecordNotFoundException;
 import com.cadu.model.Course;
 import com.cadu.repository.CourseRepository;
 import org.springframework.stereotype.Service;
@@ -24,30 +25,26 @@ public class CourseService {
         return courseRepository.findAll();
     }
 
-    public Optional<Course> findById(@PathVariable("id") @NotNull @Positive Long id) {
-        return courseRepository.findById(id);
+    public Course findById(@PathVariable("id") @NotNull @Positive Long id) {
+        return courseRepository.findById(id).orElseThrow(() -> new RecordNotFoundException(id));
     }
 
     public Course create(@Valid Course course) {
         return courseRepository.save(course);
     }
 
-    public Optional<Course> update(@NotNull @Positive Long id, @Valid Course course) {
+    public Course update(@NotNull @Positive Long id, @Valid Course course) {
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     recordFound.setName(course.getName());
                     recordFound.setCategory(course.getCategory());
-                    Course updated = courseRepository.save(recordFound);
                     return courseRepository.save(recordFound);
-                });
+                }).orElseThrow(() -> new RecordNotFoundException(id));
     }
 
-    public boolean delete(@PathVariable @NotNull @Positive Long id){
-        return courseRepository.findById(id)
-                .map(recordFound -> {
-                    courseRepository.deleteById(id);
-                    return true;
-                })
-                .orElse(false);
+    public void delete(@PathVariable @NotNull @Positive Long id){
+        courseRepository.delete(courseRepository.findById(id)
+                .orElseThrow(() -> new RecordNotFoundException(id)));
+
     }
 }
